@@ -1,0 +1,25 @@
+*{
+
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color:$main;
+}
+.section_title
+{
+    
+   padding: 24px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+    border: 1px solid #DFDEDB;
+    @media screen and ( max-width: 1024px )
+
+    {
+        margin-bottom: 0;
+    }
+}
